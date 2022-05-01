@@ -1,0 +1,32 @@
+body,.root{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Background styles */
+body {
+background: #181890;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* buttons */
+
+button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+   width:100px;
+   top: 90%;
+   left: 10%;
+   transform: translate(200%,350%);
+
+}
+/* form section */

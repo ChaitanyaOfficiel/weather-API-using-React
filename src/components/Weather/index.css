@@ -1,0 +1,31 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 50%;
+    left:10%;
+    transform: translate(20%,40%);
+}
+img{
+    width: 50px;
+}
+.chead{
+    text-align: start;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h1{
+    color: white;
+    font-size: 24px;
+    font-family: 'Gill Sans';
+}
+p{
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans MT';
+}
