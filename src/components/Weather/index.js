@@ -12,7 +12,7 @@ export default function Weather({cityName}) {
   const [hum,setHum] = useState(0);
 useEffect(() => {
   const getInfo = async () => {
-    const url  = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=1207112ee35251d6d2e3be9e0dc5f326`
+    const url  = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={APIkeys}`
     const res = await fetch(url);
     const data =  await res.json();
     return data;
